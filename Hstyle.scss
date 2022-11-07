@@ -1,0 +1,254 @@
+@import "./import.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    .style{
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    body{
+        background-color: rgba(234, 234, 234, 1);
+    }
+    //header
+}
+.nav{
+    padding: 15px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navLeft {
+display: flex;
+grid-gap: 75px;
+h1{
+font-family: $fontFamily;
+font-size: 25px;
+text-align: left;
+}
+    }
+    .navRight{
+        display: flex;
+        grid-gap: 36px;
+        align-items: center;
+        .productbox{
+            background-color: rgba(255, 165, 66, 1);
+            border-radius: 20px; 
+            border: none;
+            color: white;
+        }
+        .likedproduct{
+            background-color: rgba(255, 165, 66, 1);
+            border-radius: 20px; 
+            border: none;
+            color: white;
+        }
+    }
+    .button{
+        display: flex;
+       align-items: center;
+        grid-gap: 15px;
+        img:last-child{
+            height: 5px;
+            width: 8px;
+        }
+        p{
+font-family:$fontFamily;
+font-size: 15px;
+text-align: left
+        }
+    }
+}
+.headersection{
+    height: 197px;
+    margin-top: 22px;
+    padding: 0 165px;
+    background-color: rgba(16, 16, 16, 1);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    grid-gap: 150px;
+h1{
+    font-family: $fontFamily;
+font-size: 30px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+img{
+    height: 226px;
+width: 321px;
+}
+}
+//main
+.main1{
+    margin-top: 44px;
+    h1{
+        font-family: $fontFamily;
+font-size: 20px;
+text-align: left;
+color: rgba(131, 131, 131, 1);
+
+    }
+    .m1container{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .m1box{
+        background-color: $backcolor;
+        padding: 25px 100px 50px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+border-radius: 30px;
+text-align: center;
+.iphon{
+display: none;
+}
+.iphon2{
+    display: none;
+}
+p{
+    margin-top: 20px;
+    font-family: $fontFamily;
+font-size: 17px;
+color: rgba(28, 28, 39, 1);
+}
+    }
+}
+.main2{
+    margin-top: 30px;
+    h1{
+        color: rgba(131, 131, 131, 1);
+        font-family:$fontFamily;
+font-size: 20px;
+margin-bottom: 20px;
+    }
+    .m2container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+    }
+    .m2box{
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+border-radius: 30px;
+text-align: center;
+        background-color: $backcolor;
+        padding: 15px 22px 33px;
+        div:first-child{
+text-align: left;
+        }
+    .m2boxtitle{
+        display: flex;
+        grid-gap: 120px;
+        margin-top: 54px;
+        h1{
+            color: rgba(28, 28, 39, 1);
+            font-family: $fontFamily;
+font-size: 17px;
+        }
+        h2{
+        font-family: $fontFamily;
+font-size: 17px;
+color: rgba(255, 165, 66, 1);
+    }
+    p{
+        text-decoration: line-through;
+        color:rgba(255, 165, 66, 1) ;
+        font-family: $fontFamily;
+font-size: 13px;
+    }
+    }
+    
+    .m2boxfootter{
+        display: flex;
+        align-items: center;
+        grid-gap: 10px;
+    }
+    }
+    .m2box3and6{
+        .m2boxtitle{
+            margin-top: 72px;
+    }
+    .m2boximg{
+        margin-top: 42px;
+    }
+}
+.m2box4{
+    
+    .m2boxtitle{
+        grid-gap: 40px;
+    h2{
+        color: rgba(223, 100, 100, 1);
+    }
+    span{
+        margin-left: 10px;
+        font-family:$fontFamily;
+font-size: 14px;
+    }
+    p{
+        color: rgba(223, 100, 100, 1); 
+    }
+}
+
+}
+}
+.main3{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    h1{
+        color: rgba(131, 131, 131, 1);
+        font-family:$fontFamily;
+font-size: 20px;
+margin-bottom: 20px;
+    }   
+.m3container{
+    margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        .m3box{
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        text-align: center;
+                background-color: $backcolor;
+                padding: 15px 22px 33px;
+                div:first-child{
+        text-align: left;
+        }
+        .m3boxtitle{
+            display: flex;
+            grid-gap: 120px;
+            margin-top: 54px;
+            h1{
+                color: rgba(28, 28, 39, 1);
+                font-family: $fontFamily;
+    font-size: 17px;
+            }
+            h2{
+            font-family: $fontFamily;
+        font-size: 17px;
+        color: rgba(255, 165, 66, 1);
+        }
+        p{
+            text-decoration: line-through;
+            color:rgba(255, 165, 66, 1) ;
+            font-family: $fontFamily;
+        font-size: 13px;
+        }
+        }
+        
+        .m3boxfootter{
+            display: flex;
+            align-items: center;
+            grid-gap: 10px;
+        }
+        }
+}
+}
